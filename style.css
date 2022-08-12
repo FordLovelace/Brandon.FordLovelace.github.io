@@ -14,7 +14,7 @@ main{
     color: white;
 }
 header {
-    background-color: white;
+    background-color: black;
     color: white;
     position: fixed;
     top: 0;
@@ -41,4 +41,7 @@ header li a {
 h1 {
     height: 60px;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
 }
