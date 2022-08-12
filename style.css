@@ -1,5 +1,7 @@
 header img {
-    height: 80px;
+    font-size: 80px;
+    font-size: 5vw;
+    text-align: left;
 }
 body {
     margin: 0;
