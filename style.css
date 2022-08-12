@@ -31,7 +31,8 @@ header * {
 }
 
 header li {
-    margin: 20px
+    margin: 20px;
+    color: white;
 }
 
 header li a {
@@ -40,8 +41,9 @@ header li a {
 
 h1 {
     height: 60px;
+    margin-left: 40px;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    text-align: center;
+    align-items: center;
 }
