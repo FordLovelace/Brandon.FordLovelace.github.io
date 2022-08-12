@@ -4,6 +4,7 @@ header img {
 }
 body {
     margin: 0;
-    background: grey;
+    background-image: url('https://raw.githubusercontent.com/FordLovelace/FordLovelace.github.io/main/PendOrielle.jpg');
+    background-size: cover;
     text-align: center;
 }
