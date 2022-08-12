@@ -1,11 +1,14 @@
 header img {
     height: 80px;
+    margin-left: 40px;
 }
 body {
     height: 125vh;
     background-image: url('https://raw.githubusercontent.com/FordLovelace/FordLovelace.github.io/main/PendOrielle.jpg');
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 80px;
+    padding: 30px;
 }
 main{
     color: white;
@@ -17,4 +20,19 @@ header {
     left: 0;
     right: 0;
     height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
 }
