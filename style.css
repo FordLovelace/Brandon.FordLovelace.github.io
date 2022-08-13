@@ -12,12 +12,13 @@
   padding: 16px;
   text-decoration: none;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 0px;
 }
 
 .header a.logo{
   font-size: 25px;
   font-weight: bold;
+  padding: 30px;
 }
 
 .header a.links{
