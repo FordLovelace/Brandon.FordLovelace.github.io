@@ -1,49 +1,38 @@
-header img {
-    height: 80px;
-    margin-left: 40px;
+.header {
+  overflow: hidden;
+  background-color: #333;
+    padding: 20px 10px;
 }
+
+.header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header a.logo{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a.links{
+float: right;
+}
+
+.header a.links:hover {
+  text-decoration: underline;
+}
+
+.header .icon {
+  display: none;
+}
+
+
 body {
-    height: 125vh;
-    background-image: url('https://raw.githubusercontent.com/FordLovelace/FordLovelace.github.io/main/PendOrielle.jpg');
-    background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 80px;
-    padding: 30px;
-}
-main{
-    color: white;
-}
-header {
-    background-color: black;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 25px 0 black;
-}
-
-header * {
-    display: inline;
-}
-
-header li {
-    margin: 20px;
-}
-
-header li a {
-    color: white;
-    text-decoration: none;
-}
-
-header h1 {
-    height: 60px;
-    margin-left: 40px;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    align-items: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
