@@ -37,3 +37,13 @@ float: right;
 .topnav .icon {
   display: none;
 }
+
+.fixed-nav {
+  list-style: none;
+  float: right;
+}
+
+.fixed-nav li {
+  float: left;
+  padding: 30px;
+}
