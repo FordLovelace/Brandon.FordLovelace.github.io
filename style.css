@@ -395,7 +395,7 @@ a{
   position:relative;
   padding:0;
   outline:0;
-  width:600px
+  width:750px
 }
 .bar{
   width:100%;
@@ -486,7 +486,7 @@ a{
 .col.s12{
   width:99.99999%
 }
-@media (min-width:601px){
+@media (min-width:751px){
   .col.m1{
       width:8.33333%
   }
@@ -609,7 +609,7 @@ a{
       max-width:95%
   }
 }
-@media (max-width:600px){
+@media (max-width:750px){
   .modal-content{
       margin:0 10px;
       width:auto!important
@@ -653,7 +653,7 @@ a{
       display:block!important
   }
 }
-@media (max-width:992px) and (min-width:601px){
+@media (max-width:992px) and (min-width:751px){
   .hide-medium{
       display:none!important
   }
